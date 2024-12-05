@@ -6,6 +6,8 @@ pipeline {
         jdk ' jdk 17'
     }
     
+    agent any
+    
     stages {
 
         stage ('Git checkout') {
